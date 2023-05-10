@@ -7,8 +7,8 @@ public class PickUpScript : MonoBehaviour
     //public GameObject player;
     //public Transform holdPos;
 
-    private GameObject _heldObj; //object which we pick up
-    private Rigidbody heldObjRb; //rigidbody of object we pick up
+    private GameObject _heldObj; //Elimizde ki nesne
+    private Rigidbody heldObjRb; //Elimizde ki nesnenin rigidbodysi
     public bool isCanCarry;
     void Update()
     {
